@@ -1,0 +1,44 @@
+button:hover {
+    border: 5px solid white;
+    transform: scale(1.1, 1.1);
+    color: blue;
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+    box-shadow: 1px 8px 1px rgba(100, 100, 100, .4);
+}
+
+body {
+    background-color: rgb(212, 227, 232);
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px;
+}
+
+/*60, 140*/
+button {
+    height: 60px;
+    width: 140px;
+    font-size: x-large
+}
+
+h2 {
+    text-align: center;
+}
+
+#score,
+#final {
+    color: blue;
+}
+
+#again {
+    color: rgb(5, 97, 5)
+}
